@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-image:url(img/2.jpeg);background-repeat: no-repeat;background-size: cover;}
+        .tb td a{font-size: 20px;color: black;}
+        .tb td a:hover{color: orange;}
+           
+
+input {
+  margin-bottom: 20px;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+    </style>
+</head>
+<body>
+
+    <table class="tb" border="0" width="35%" height="5%" cellspacing="5" cellpadding="10" align="right">
+        <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="img/Seema_resume.pdf">About Us</a></td>
+        <td><a href="login.html">Register</a></td><br>
+        </tr>
+        </table><br><br>
+  
+      <form action="submit.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+    
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br>
+    
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+    
+        <label for="contact">Contact No:</label><br>
+        <input type="tel" id="contact" name="contact" required><br>
+    
+        <input type="submit" value="Submit">
+      </form>
+
+    
+</body>
+</html>
